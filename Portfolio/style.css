@@ -1,0 +1,232 @@
+body{
+	background-image: url("assets/simple_dashed.png");
+	background-repeat: repeat-x y;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: 'Lato', sans-serif; 
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top-color: #EA6328;
+	border-top-style: solid;
+	border-top-width: 6px;
+	border-bottom-color: #908E9A;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	float: left;
+}
+
+#aspectcontainer{
+	float:left;
+}
+
+#homepagecontainer, #aboutmecontainer, #blogpagecontainer, #designproposal, #progressdemonstration, #finaldelivery, #portfolio, #coursereflection{
+	margin-left: auto;
+    margin-right: auto;
+	width: 55%;
+	border-left-color: #908E9A;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #908E9A;
+	border-right-style: solid;
+	border-right-width: 1px;
+	padding: 30px;
+	clear:both;
+}
+
+#designproposal, #progressdemonstration, #finaldelivery, #portfolio, #coursereflection{
+	display:none;
+}
+
+#projectslabel{
+	text-align:center;
+	margin-top:0;
+}
+
+#aboutmepage{
+	display:none;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#blogpage{
+	margin-left: auto;
+    margin-right: auto;
+	display:none;
+}
+
+#container{
+	width: 1366px;
+	margin: 0;
+	padding:0;
+}
+
+#aspect1, #aspect2, #aspect3, #aspect4, #aspect5, #aspect6{
+	width: 205px;
+	height: 205px;
+	margin: 20px;
+	border: 1px solid;
+	float: left;
+	
+}
+
+#header{
+	display:inline;
+	clear: both;
+}
+
+.blogButton, .homeButton, .aboutmeButton{
+cursor: pointer;
+}
+.blogButton:hover, .homeButton:hover, .aboutmeButton:hover{
+color:#EA6328;
+}
+
+#banner{
+	width: 45%;
+	border-right: solid;
+	padding: 30px;
+	float:left;
+	border-right-color: #908E9A;
+	border-right-width: 1px;
+	
+}
+
+#navigation{
+	width: 45%;
+	float: left;
+	padding-left: 30px;
+	text-align: centre;
+	font-size: 20px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+#designcontent{
+	float:left;
+}
+
+
+
+#aboutmetext{
+	float: left;
+	padding-right: 30px;
+}
+
+#aboutmeimg{
+	float:left;
+}
+
+.returnButton{
+	cursor: pointer;
+	clear:both;
+}
+
+ul {
+    list-style-image: url('assets/icon3.png');
+	padding-bottom: 0px;
+	margin-bottom:0px;
+}
+
+#contactme{
+	margin-top: -100px;
+	clear:both;
+}
+
+#banner, h1{
+	color: #ffffff; 
+	font-family: 'Lato', sans-serif; 
+	font-size: 54px; 
+	font-weight: 300; 
+	line-height: 58px; 
+	margin: auto;
+	text-shadow: 2px 2px 5px #EA6328;
+}
+
+#content{
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+	border-top-color: #908E9A;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin:0px;
+	padding: 10px;
+	clear: both;
+}
+
+#footertext{
+	text-align: center;
+}
+
+
+#left{
+	float:left;
+}
+#right{
+	margin: 20px;
+	float:right;
+}
+
+#clear{
+	clear:both;
+}
+
+#aspect1{
+	background-image: url('assets/conceptdoc.jpg');
+}
+
+#aspect2{
+	background-image: url('assets/progress3.jpg');
+}
+
+#aspect3{
+	background-image:url('assets/finaldelivery.jpg')
+}
+
+#aspect4{
+	background-image:url('assets/portfolio.jpg')
+}
+
+#aspect5{
+	background-image:url('assets/reflection.jpg')
+}
+
+#aspect6{
+	background-image:url('assets/theproject.jpg')
+}
+
+#conceptmap{
+	
+}
+
+.button1,.button2,.button3,.button4,.button5,.button6{
+	width: 205px;
+	height: 82px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: 61.5px;
+	margin-bottom: auto;
+	background-color: rgba(144,142,154,0.7);
+	text-align:center;
+	font-size: 25px;
+	padding-top: 10px;
+	cursor: pointer;
+	clear:right;
+	text-shadow: 0px 0px 3px #000000;
+	
+}
+
+
+
+.button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover,.button6:hover{
+	background-color: rgba(234,99,40,0.7);
+	
+}
